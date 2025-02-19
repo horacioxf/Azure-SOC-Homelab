@@ -1,6 +1,6 @@
-# Azure-SIEM
+# Azure-SOC
 
-# Building a SIEM + Honeynet in Azure (Live Traffic)
+# Building a SOC + Honeynet in Azure (Live Traffic)
 ![Azure-Cloud-Honeynet+SOC drawio](https://github.com/horacioxf/Azure-SOC/assets/100793672/b0580443-0258-4943-8cd8-e650fd7bc5fe)
 
 
@@ -15,11 +15,11 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into my honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Before Hardening_Security Controls drawio](https://github.com/horacioxf/Azure-SIEM/assets/100793672/40d5f438-66a9-4766-b1d2-a9a630f22c64)
+![Architecture Before Hardening_Security Controls drawio](https://github.com/horacioxf/Azure-SOC/assets/100793672/40d5f438-66a9-4766-b1d2-a9a630f22c64)
 
 
 ## Architecture After Hardening / Security Controls
-![Architecture After Hardening_Security Controls drawio](https://github.com/horacioxf/Azure-SIEM/assets/100793672/799f10bb-d498-49c9-b09e-e00369f065f6)
+![Architecture After Hardening_Security Controls drawio](https://github.com/horacioxf/Azure-SOC/assets/100793672/799f10bb-d498-49c9-b09e-e00369f065f6)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -36,9 +36,9 @@ For the "BEFORE" metrics, all resources were originally deployed and exposed to 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic except for my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![Nsg-Malicious-Allowed-In](https://github.com/horacioxf/Azure-SIEM/assets/100793672/e73557cd-d142-4d45-9152-5a59fb8feefe)<br>
-![Linux-SSH-Auth_Fail](https://github.com/horacioxf/Azure-SIEM/assets/100793672/769cd252-f9b6-4bd3-8a84-6c96cd1cf254)<br>
-![MSSWL-Auth-Fail](https://github.com/horacioxf/Azure-SIEM/assets/100793672/f5ae71b6-d540-42c7-8b8e-53edb3fdf4cb)<br>
+![Nsg-Malicious-Allowed-In](https://github.com/horacioxf/Azure-SOC/assets/100793672/e73557cd-d142-4d45-9152-5a59fb8feefe)<br>
+![Linux-SSH-Auth_Fail](https://github.com/horacioxf/Azure-SOC/assets/100793672/769cd252-f9b6-4bd3-8a84-6c96cd1cf254)<br>
+![MSSWL-Auth-Fail](https://github.com/horacioxf/Azure-SOC/assets/100793672/f5ae71b6-d540-42c7-8b8e-53edb3fdf4cb)<br>
 
 ## Metrics Before Hardening / Security Controls
 
