@@ -39,6 +39,26 @@ Logging needs to be enabled for the SQL Server, this is done in Registry Editor.
 
 ![image](https://github.com/user-attachments/assets/fbb6288e-6cb2-45b6-a109-9646b607333f)
 
+Login to SSMS and change the settings to SQL Server Authentication and Optional.
 
+![image](https://github.com/user-attachments/assets/cc0bd9ab-936e-4185-86ce-21da286a6b09)
 
+Right click on ther server and go to properties to enable both successful and failed logins attempts. Restart the server afterwards.
 
+![image](https://github.com/user-attachments/assets/017ab330-9b5c-4101-bb8f-326a37f4f748)
+
+Disconnect from the server and reconnect with a wrong password to test if a log is generated. Checking the application logs I can see that a failed login attempt was generated.
+
+![image](https://github.com/user-attachments/assets/c7275c03-fd5d-4e92-907d-fe99fb089253)
+
+Lastly, turn off Windows Firewall.
+
+![image](https://github.com/user-attachments/assets/f690d924-0210-40d3-8040-3c6d6c19cff7)
+
+<h2>Linux VM</h2>
+
+Ping the linux machine and if replies are received, continue to SSH into it.
+
+![image](https://github.com/user-attachments/assets/aaef98df-f9d5-4ee2-96a9-73b15e52a9b8)
+
+The machines are working as inteded, so this section of the lab is wrapped up. 
