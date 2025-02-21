@@ -7,3 +7,5 @@ In Microsoft Entra ID, create three users and assign the roles Tenant-Level Glob
 - globalreaderjohn
 - subreaderjane
 - rgcontributordave
+
+Having these roles assigned allows audit logs, activity logs, and resource logs to be generated. 
