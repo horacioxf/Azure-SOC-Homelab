@@ -43,4 +43,28 @@ Click on create data collection rule.
 
 ![image](https://github.com/user-attachments/assets/98b4d22a-94d9-4d3e-8f7b-fc2d5c5a6bf1)
 
+![image](https://github.com/user-attachments/assets/9b5af7fe-50b7-42c9-8f61-d58ad633f691)
 
+![image](https://github.com/user-attachments/assets/9be46f14-e900-4d66-b96f-3e03dd868a2e)
+
+Perform the same tasks for Syslogs. 
+
+![image](https://github.com/user-attachments/assets/94fb4663-f4a4-4d86-8026-25a77fb2080c)
+
+![image](https://github.com/user-attachments/assets/7127fdcf-2090-4af8-a903-72504db8f979)
+
+![image](https://github.com/user-attachments/assets/ab6b9e66-65e8-4c52-ae58-c42b7843ef9d)
+
+![image](https://github.com/user-attachments/assets/aa48ed3b-c094-4f31-bb30-2688d2511a65)
+
+On the Collection tab, set the minimum log level of LOG_AUTH to LOG_DEBUG.
+
+![image](https://github.com/user-attachments/assets/60caaf99-46b1-4a8c-ba04-ab8d4a962ee3)
+
+We can now check logs are being ingested correctly by querying logs for both machines.
+
+![image](https://github.com/user-attachments/assets/af8ee221-d9b9-403f-8cd8-7add3ebfd167)
+
+![image](https://github.com/user-attachments/assets/d057f529-8e6b-4fd1-9c44-eb32756c3beb)
+
+![image](https://github.com/user-attachments/assets/3297665e-0533-4f74-b4e4-a80a9701c2ec)
