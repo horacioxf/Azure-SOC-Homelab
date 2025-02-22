@@ -1,5 +1,5 @@
 <h2>Description</h2>
-This section will cover Log Analytics Workspace and Microsoft Sentinel, and geoip-summarized.csv will be used to see where the attacks are coming from. 
+This section will cover setting up Log Analytics Workspace and Microsoft Sentinel. 
 
 <h2>Requirements</h2>
 - <a href="https://github.com/user-attachments/files/18911480/geoip-summarized.csv">geopip-summarized.csv</a>
@@ -19,3 +19,9 @@ Click on the workspace and navigate to Configuration > Watchlist > New to create
 ![image](https://github.com/user-attachments/assets/ddeacb77-d729-4b3a-85c5-3b8bfaef08db)
 
 ![image](https://github.com/user-attachments/assets/3ca32371-e6af-4f1b-9323-75cb991f72a0)
+
+It'll take some time before the file successfully uploads to Sentinel/LAW. 
+
+By running the query <code>_GetWatchlist('geoip')</code>, I can test that Log Analytics Workspace and Sentinel are working as intended. 
+
+![image](https://github.com/user-attachments/assets/e05d1a3b-b547-4a49-80a6-134fe6ab7c36)
