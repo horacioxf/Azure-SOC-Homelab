@@ -8,7 +8,7 @@ In Microsoft Entra ID, create three users and assign the roles Tenant-Level Glob
 - subreaderjane
 - rgcontributordave
 
-<h2>Tenant-Level</h2>
+<h2>Tenant Level</h2>
 Create globalreaderjohn. 
 
 ![image](https://github.com/user-attachments/assets/8f6f3fa6-aa29-42b6-a379-641a3ed4b6b1)
