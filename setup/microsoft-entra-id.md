@@ -11,7 +11,7 @@ In Microsoft Entra ID, create three users and assign the roles Tenant-Level Glob
 <h2>Tenant-Level</h2>
 Create globalreaderjohn. 
 
-![image](https://github.com/user-attachments/assets/887cb1a5-f46b-4b8f-b06d-b6c3fc70b4bb)
+![image](https://github.com/user-attachments/assets/8f6f3fa6-aa29-42b6-a379-641a3ed4b6b1)
 
 Navigate to Assigned roles > Add assignments. Search Global Reader and assign. 
 
@@ -20,7 +20,7 @@ Navigate to Assigned roles > Add assignments. Search Global Reader and assign.
 <h2>Subscription Level</h2>
 Create subreaderjane.
 
-![image](https://github.com/user-attachments/assets/7d6f8527-5047-4397-9695-cc4cd5700c2a)
+![image](https://github.com/user-attachments/assets/a4ba0aeb-a7a4-444e-9295-1d2b4e92b2fc)
 
 Navigate to Subscriptions > (Subscription Name) > Access control (IAM) > add role assignment. 
 
@@ -33,7 +33,7 @@ Select member and select the user granted the reader role, subreaderjane.
 
 Create rgcontributordave.
 
-![image](https://github.com/user-attachments/assets/27807096-cfaf-4aa3-824d-d82af205f7bd)
+![image](https://github.com/user-attachments/assets/4be80489-b500-4780-93d6-5311e2e7f483)
 
 Create a new resource group so that RG-Home-Lab doesn't mess up. I'll name it Permissions-Tester. Navigate to Resource Groups > Permissions-Tester > Access control (IAM) > add role assignment. 
 
@@ -46,3 +46,22 @@ Select Privileged administrator roles and select Contributor.
 Select members, find rgcontributordave, and assign the role. 
 
 ![image](https://github.com/user-attachments/assets/f4c58a56-86cb-4c1b-87e6-9a1e08cae630)
+
+<h2>Testing</h2>
+Now that the users have been created and the roles have been assigned, I can log in as the users and observe their permissions.
+
+First will be user globalreaderjohn. Logged in as globalreaderjohn, the user can view other users but cant make any changes. Edit properties and Delete are greyed out. 
+
+![image](https://github.com/user-attachments/assets/b6c5d9c8-5cb6-40c8-81a7-08623a681613)
+
+Next is subreaderjane. After logging in as subreaderjane, I can look at the subscriptions, but I can't make changes, like delete.
+
+![image](https://github.com/user-attachments/assets/be2bb913-52f1-4572-9758-78c3bd29693c)
+
+![image](https://github.com/user-attachments/assets/453724c1-b5ea-4506-b3f8-5ac8b8c90959)
+
+Lastly, rgcontributordave. Logging in as rgcontributordave, I'll delete the resource group created earlier, Permissions-Tester
+
+![image](https://github.com/user-attachments/assets/eab2489f-012e-48f9-83e6-50cfb00a943f)
+
+![image](https://github.com/user-attachments/assets/edd56f47-0d44-44bd-935a-a46d21f45cde)
