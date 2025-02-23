@@ -65,3 +65,8 @@ Lastly, rgcontributordave. Logging in as rgcontributordave, I'll delete the reso
 ![image](https://github.com/user-attachments/assets/eab2489f-012e-48f9-83e6-50cfb00a943f)
 
 ![image](https://github.com/user-attachments/assets/edd56f47-0d44-44bd-935a-a46d21f45cde)
+
+Back in my account you can see that Permissions-Tester is no longer found.
+
+
+![image](https://github.com/user-attachments/assets/08b81926-8809-48ad-aa85-ccda4f16f268)
