@@ -18,3 +18,19 @@ The tables are created in Log Analytics Workspace for AuditLogs and SignInLogs.
 ![image](https://github.com/user-attachments/assets/6bd3e7ed-d7ab-4420-aa43-44b8a255c08b)
 
 ![image](https://github.com/user-attachments/assets/5929f401-f79d-431a-bacd-b8cd37a9383b)
+
+To generate logs and ensure AuditLogs and SignInLogs are working correctly, I'll create a user called test_user, login, and assign the Global Admin role.
+
+![image](https://github.com/user-attachments/assets/673275ba-6b64-4ec6-8386-843e0deb57a6)
+
+![image](https://github.com/user-attachments/assets/64b0290a-a67f-493e-b86d-42758da8f02c)
+
+![image](https://github.com/user-attachments/assets/d8fac2f1-d47f-4100-bb83-dac74570d6d7)
+
+The following results appear when querying SignInLogs and AuditLogs.
+
+![image](https://github.com/user-attachments/assets/ae6a96e6-d0dc-4dd1-82d9-753e0f4dffea)
+
+![image](https://github.com/user-attachments/assets/525339d4-4ca0-49e6-808b-9cf36dd1353f)
+
+<h2>Subscription Level</h2>
