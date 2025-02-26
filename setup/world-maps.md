@@ -68,6 +68,6 @@ Review and create.
 
 The event logs and the world map now populate.
 
-![image](https://github.com/user-attachments/assets/667c5b30-0dfb-415e-9262-7e86703ea006)
+![image](https://github.com/user-attachments/assets/ffd1233b-7b6c-4d58-bb90-94375f290e08)
 
 ![image](https://github.com/user-attachments/assets/54d118e6-0ba1-412c-803c-217ecf6c5214)
