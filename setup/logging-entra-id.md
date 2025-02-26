@@ -65,3 +65,44 @@ This is used to query for deletion activity within a certain lifespan.
 ![image](https://github.com/user-attachments/assets/d836dbc7-d7b4-400b-b1b2-7e4e309422ef)
 
 <h2>Resource Level</h2>
+Navigate to the storage account and configure logging by enabling diagnostic settings for blob storage. Storage account > Monitoring > Diagnostic settings > blob > add diagnostic setting.
+
+![image](https://github.com/user-attachments/assets/a782fae7-4a53-42da-8347-52964ab1bd4a)
+
+![image](https://github.com/user-attachments/assets/8c01c696-adc4-403b-b973-d512af38b0d9)
+
+Check the audit option and send it to Log Analytics Workspace.
+
+![image](https://github.com/user-attachments/assets/e66855e3-c163-43b7-b67d-14968566c36c)
+
+Upload a file to the storage account to generate logs. Storage account > container. 
+
+![image](https://github.com/user-attachments/assets/be05a902-0afa-4e07-91da-e135debb174b)
+
+![image](https://github.com/user-attachments/assets/94878e65-1519-4bab-90c4-410303f804f1)
+
+![image](https://github.com/user-attachments/assets/3e8768fa-1594-4954-8991-6ef7e1856c2f)
+
+With the file uploaded in the container, you can now view and edit it within Azure, creating logs.
+
+![image](https://github.com/user-attachments/assets/5cbeacca-d6fd-44b9-b698-d45bcfe863c1)
+
+Next, create and configure a Key Vault for additional resource logging.
+
+![image](https://github.com/user-attachments/assets/9faf0547-8797-44bb-97bf-e33c7122105b)
+
+![image](https://github.com/user-attachments/assets/e31a9f90-1b52-4352-8ef1-3b8ed09b3c20)
+
+![image](https://github.com/user-attachments/assets/945e6b32-3540-4408-a644-238dcc8a121d)
+
+With the Key Vault created, create an Enterprise Secret. Navigate to the Key Vault created > Objects > Secrets > Generate/Import.
+
+![image](https://github.com/user-attachments/assets/be69c7f0-a3d8-4f3f-a39c-fec57d46f915)
+
+Create a diagnostic setting to enable logging.
+
+![image](https://github.com/user-attachments/assets/c210793b-5946-43ff-a7af-4f9fb38eaf6b)
+
+The secret can be viewed by selecting it. It this case it would be Tenant-Global-Admin-Password > the current version. Clicking on Show Secret Value or the copy button next to it will generate logs.
+
+![image](https://github.com/user-attachments/assets/72389abf-db53-4d67-8ff3-8235cf0de92f)
