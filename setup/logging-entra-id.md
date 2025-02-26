@@ -106,3 +106,15 @@ Create a diagnostic setting to enable logging.
 The secret can be viewed by selecting it. It this case it would be Tenant-Global-Admin-Password > the current version. Clicking on Show Secret Value or the copy button next to it will generate logs.
 
 ![image](https://github.com/user-attachments/assets/72389abf-db53-4d67-8ff3-8235cf0de92f)
+
+Use <code>StorageBlobLogs</code> to query blob logs.
+
+![image](https://github.com/user-attachments/assets/65420826-6c6d-47d5-a31b-8ae66c39bf91)
+
+<code>StorageBlobLogs
+| where OperationName == "GetBlob"
+</code> 
+
+Is used to query logs reading blobs.
+
+![image](https://github.com/user-attachments/assets/772afeed-604c-4528-a6f4-bd5ccf4e6441)
