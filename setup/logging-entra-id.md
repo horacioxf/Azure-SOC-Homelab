@@ -41,3 +41,27 @@ Navigate to Monitor > Activity Logs > Export Activity Logs to export the activit
 ![image](https://github.com/user-attachments/assets/d6697e12-f0ec-4fd2-a6e1-1aef1398f1a0)
 
 ![image](https://github.com/user-attachments/assets/b1d95b4a-2b14-4b2a-9c62-93dd0866d3a1)
+
+To test the logs, create two new resource groups and delete them once they are created. The test resource groups for this are Doe-Resource-Group and Jane-Economic-Infrastructure.
+
+<code>AzureActivity
+| where ResourceGroup startswith "Jane"
+| order by TimeGenerated
+</code>
+
+This is used to query for deletion of resource groups that start with "Jane"
+
+![image](https://github.com/user-attachments/assets/ea63c20a-8177-440a-9a59-d1e280eff0c9)
+
+<code>AzureActivity
+| where OperationNameValue endswith "DELETE"
+| where ActivityStatusValue == "Success"
+| where TimeGenerated > ago(30m)
+| order by TimeGenerated
+</code>
+
+This is used to query for deletion activity within a certain lifespan. 
+
+![image](https://github.com/user-attachments/assets/d836dbc7-d7b4-400b-b1b2-7e4e309422ef)
+
+<h2>Resource Level</h2>
