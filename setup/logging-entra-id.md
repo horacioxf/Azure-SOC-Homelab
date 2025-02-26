@@ -34,3 +34,10 @@ The following results appear when querying SignInLogs and AuditLogs.
 ![image](https://github.com/user-attachments/assets/525339d4-4ca0-49e6-808b-9cf36dd1353f)
 
 <h2>Subscription Level</h2>
+Navigate to Monitor > Activity Logs > Export Activity Logs to export the activity logs to Log Analytics Workspace.
+
+![image](https://github.com/user-attachments/assets/e4a8c5ee-6a09-4832-b49a-19520cbc4e10)
+
+![image](https://github.com/user-attachments/assets/d6697e12-f0ec-4fd2-a6e1-1aef1398f1a0)
+
+![image](https://github.com/user-attachments/assets/b1d95b4a-2b14-4b2a-9c62-93dd0866d3a1)
