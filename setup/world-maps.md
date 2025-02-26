@@ -66,6 +66,8 @@ Create the data source for the linux-vm and set the destination.
 
 Review and create.
 
-Event logs now populate.
+The event logs and the world map now populate.
 
 ![image](https://github.com/user-attachments/assets/667c5b30-0dfb-415e-9262-7e86703ea006)
+
+![image](https://github.com/user-attachments/assets/54d118e6-0ba1-412c-803c-217ecf6c5214)
