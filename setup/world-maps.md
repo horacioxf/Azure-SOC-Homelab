@@ -39,4 +39,33 @@ Repeat the process for the remaining three workbooks.
 
 ![image](https://github.com/user-attachments/assets/267ed5af-e652-4029-9ea3-34681ed1875f)
 
-At the moment, mssql has no logs 
+mssql-auth-fail has no logs. There was an issue where it wasn't querying Event logs. I had to create a new Data Collection Rule with both VMs.
+
+![image](https://github.com/user-attachments/assets/a04b229d-b3c9-4bb1-bbae-abd730f02d53)
+
+![image](https://github.com/user-attachments/assets/f5e61e13-ec73-45d0-847f-8753e3b42d5a)
+
+![image](https://github.com/user-attachments/assets/1b187463-0ecb-427b-a412-c57b9c85f5f4)
+
+Add the following custom logs. <br>
+<code>Microsoft-Windows-Windows Defender/Operational!*[System[(EventID=1116 or EventID=1117)]]
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall!*[System[(EventID=2003)]]
+Application!*[System[(EventID=18456 or EventID=18454)]]</code>
+
+![image](https://github.com/user-attachments/assets/cf6d1761-2e1f-4c66-bf0a-c8734c48b045)
+
+![image](https://github.com/user-attachments/assets/6b0aea58-873b-4af4-a7c6-109afae7536a)
+
+Set the destination to the Log Analytic Workspace and add the data source for the windows-vm.
+
+![image](https://github.com/user-attachments/assets/76a20161-e3b3-4c29-811f-5a77e095f0f4)
+
+Create the data source for the linux-vm and set the destination.
+
+![image](https://github.com/user-attachments/assets/9435a506-67b6-477b-8cfb-a0188cb389df)
+
+Review and create.
+
+Event logs now populate.
+
+![image](https://github.com/user-attachments/assets/667c5b30-0dfb-415e-9262-7e86703ea006)
