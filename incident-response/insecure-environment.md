@@ -1,7 +1,7 @@
 <h2>Description</h2>
 Allow the virtual machines to run for 48 hours and collect the metrics for how many incidents occurred. 
 
-<h2>Querying Metrics</h2>
+<h2>Preparation</h2>
 Use the following query to collect the information for the start and stop times.
 
 <code>range x from 1 to 1 step 1
