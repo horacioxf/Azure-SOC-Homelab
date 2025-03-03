@@ -1,5 +1,5 @@
 <h2>Description</h2>
-Allow the virtual machine to run for 24 hours and collect the metrics for how many incidents occurred. 
+Allow the virtual machines to run for 24 hours and collect the metrics for how many incidents occurred. 
 
 <h2>Querying Metrics</h2>
 Use the following query to collect the information for the start and stop times.
@@ -50,3 +50,19 @@ AzureNetworkAnalytics_CL
 </code>
 
 ![image](https://github.com/user-attachments/assets/9f3ecc8a-d575-4f08-b952-78dea51b5d58)
+
+
+## Metrics Before Hardening / Security Controls
+
+The following table shows the metrics measured in the insecure environment for 24 hours:
+
+| Start Time               | Stop Time
+| ------------------------ | -----
+|2025-03-02T02:00:34.5423555Z       | 2025-03-03T02:00:34.5423555Z
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent (Windows VM)            | 52067
+| Syslog (Linux VM)                  | 21544
+| SecurityIncident (Security Incidents)        | 240
+| AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 1965
