@@ -62,10 +62,10 @@ The following table shows the metrics measured in the insecure environment for 4
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent (Windows VM)            | 52067
-| Syslog (Linux VM)                  | 21544
-| SecurityIncident (Security Incidents)        | 240
-| AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 1965
+| SecurityEvent (Windows VM)            | 89616
+| Syslog (Linux VM)                  | 45278
+| SecurityIncident (Security Incidents)        | 486
+| AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 3923
 
 <h2>Attack Maps</h2>
 The following attack maps are attacks within the last 48 hours.
