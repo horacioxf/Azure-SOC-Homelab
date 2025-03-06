@@ -1,4 +1,4 @@
-After 48 hours of the secured cloud environment, the new metrics are collected and compared to the insecured environment.
+After 48 hours of the secured cloud environment, the new metrics are collected and compared to the insecure environment.
 
 | Start Time               | Stop Time
 | ------------------------ | -----
@@ -24,3 +24,5 @@ The following table shows a decrease in count from the "BEFORE" and "AFTER" metr
 | SecurityAlert            | -100.00%
 | SecurityIncident         | -100.00%
 | AzureNetworkAnalytics_CL | -100.00%
+
+An attack map isn't generated because of the huge, vast reduction of alerts and incidents.
