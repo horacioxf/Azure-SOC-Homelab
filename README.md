@@ -46,15 +46,15 @@ The following table shows the metrics I measured in my insecure environment for 
 
 | Start Time               | Stop Time
 | ------------------------ | -----
-|2024-06-13 16:32:41       | 2024-06-14 16:32:41
+|2025-03-02T02:00:34.5423555Z       | 2025-03-03T02:00:34.5423555Z
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 106637
-| Syslog                   | 2099
-| SecurityAlert            | 7
-| SecurityIncident         | 243
-| AzureNetworkAnalytics_CL | 1004
+| SecurityEvent            | 52067
+| Syslog                   | 21544
+| SecurityAlert            | 0
+| SecurityIncident         | 240
+| AzureNetworkAnalytics_CL | 1965
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -66,13 +66,13 @@ The following table shows the metrics I measured in my environment for another 2
 
 | Start Time               | Stop Time
 | ------------------------ | -----
-|2024-06-17 22:25:58       | 2024-06-18 22:25:58
+|2025-03-05T02:18:48.2381872Z      | 2025-03-06T02:18:48.2381872Z
 
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 17510
-| Syslog                   | 1
+| SecurityEvent            | 774
+| Syslog                   | 0
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
@@ -83,8 +83,8 @@ The following table shows a decrease in count from the "BEFORE" and "AFTER" metr
 
 | Metric                   | Change After Security Environment
 | ------------------------ | -----
-| SecurityEvent            | -83.58%
-| Syslog                   | -99.95%
+| SecurityEvent            | -98.51%
+| Syslog                   | -100.00%
 | SecurityAlert            | -100.00%
 | SecurityIncident         | -100.00%
 | AzureNetworkAnalytics_CL | -100.00%
