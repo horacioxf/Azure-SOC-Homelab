@@ -1,4 +1,4 @@
-# Azure-SOC
+# Azure SOC Environment with Honeynet
 
 # Building a SOC + Honeynet in Azure (Live Traffic)
 ![Azure-Cloud-Honeynet+SOC drawio](https://github.com/horacioxf/Azure-SOC/assets/100793672/b0580443-0258-4943-8cd8-e650fd7bc5fe)
